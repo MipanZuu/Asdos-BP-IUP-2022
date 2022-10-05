@@ -19,7 +19,7 @@ int main() {
     for (int i = 1; i <= n; i++)
     {
         // decalre string as null value
-        words[i] = '\0';
+        words[i];
         scanf("%d", &m);
         int sum = 0;
         for (int j = 1; j <= m; j++)
