@@ -16,6 +16,7 @@
         "utility": "c",
         "__bit_reference": "c",
         "chrono": "c",
-        "algorithm": "c"
+        "algorithm": "c",
+        "list": "c"
     }
 }
