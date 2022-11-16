@@ -1,4 +1,3 @@
-// Created by Denta Bramasta (5025201116) Dasprog IUP20
 #include <stdio.h>
 
 // LinearSearch
