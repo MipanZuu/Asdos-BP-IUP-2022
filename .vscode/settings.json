@@ -17,6 +17,9 @@
         "__bit_reference": "c",
         "chrono": "c",
         "algorithm": "c",
-        "list": "c"
+        "list": "c",
+        "ostream": "cpp",
+        "string.h": "c",
+        "stdbool.h": "c"
     }
 }
