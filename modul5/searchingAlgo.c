@@ -35,20 +35,20 @@ int binarySearch(int arr[], int l, int r, int x)
 }
 
 int main () {
-    int arr[] = {9, 7, 5, 11, 12, 2, 14, 3, 10, 6};
+    int arr[] = {1, 1, 1, 1, 1, 1, 1, 1, 1, 1};
     int n = sizeof(arr) / sizeof(arr[0]);
-    int search = 12;
+    int search = 1;
     
     // binarySearch
-    // int result_b = binarySearch(arr, 0, n-1, search);
-    // printf("BINARY SEARCH\n");
-    // (result_b == -1) ? printf("The value that you are loooking for doesn't exist\n")
-    //                  : printf("The value at index: %d\n", result_b);
+    int result_b = binarySearch(arr, 0, n-1, search);
+    printf("BINARY SEARCH\n");
+    (result_b == -1) ? printf("The value that you are loooking for doesn't exist\n")
+                     : printf("The value at index: %d\n", result_b);
 
     // LinearSearch
-    int result_l = linearSearch(arr, n, search);
-    printf("LINEAR SEARCH\n");
-    (result_l == -1) ? printf("The value that you are loooking for doesn't exist\n")
-                     : printf("The value at index: %d\n", result_l);
+    // int result_l = linearSearch(arr, n, search);
+    // printf("LINEAR SEARCH\n");
+    // (result_l == -1) ? printf("The value that you are loooking for doesn't exist\n")
+    //                  : printf("The value at index: %d\n", result_l);
     
 }

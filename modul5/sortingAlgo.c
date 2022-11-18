@@ -26,7 +26,7 @@ void bubbleSort(int arr[], int n) {
       swapped = 0;
       for (j = 0; j < n-i-1; j++) {
         //   printf("%d ", arr[j]);
-         if (arr[j] > arr[j+1]) {
+         if (arr[j] > arr[j+1]) { // [1 2 3]
             printf("arr j = \t %d \n", arr[j]);
             printf("arr j+1 = \t %d \n", arr[j+1]);
             swap(&arr[j], &arr[j+1]);
@@ -223,9 +223,9 @@ int main () {
     
 
     //Bubblesort
-    bubbleSort(arr, n);
-    printf("Sorted array with Bubblesort: \n");
-    printArray(arr, n);
+    // bubbleSort(arr, n);
+    // printf("Sorted array with Bubblesort: \n");
+    // printArray(arr, n);
 
     //InsertionSort
     // insertionSort(arr, n);
@@ -238,9 +238,9 @@ int main () {
     // printArray(arr, n);
 
     // quicksort
-    // quicksort(arr, 0, n-1);
-    // printf("Sorted array with quick sort: \n");
-    // printArray(arr, n);
+    quicksort(arr, 0, n-1);
+    printf("Sorted array with quick sort: \n");
+    printArray(arr, n);
 
     // SelectionSort
     // selectionSort(arr, n);
