@@ -7,6 +7,12 @@
 
 #include <stdio.h>
 
+int fibonacci(int n){
+     if (n <= 1)
+      return n;
+   return fibonacci(n-1) + fibonacci(n-2);
+}
+
 int main() {
     int n;
     scanf("%d",&n);
@@ -21,7 +27,7 @@ int main() {
         for(i=0; i<row[a];i++){
             for(int j=0; j<column[a]; j++){
                 if (j==i+1) {
-                    printf("%c", ' ');
+                    printf(" %d ", fibonacci(j));
                 }else{
                     printf("%c", '*');
                 }
