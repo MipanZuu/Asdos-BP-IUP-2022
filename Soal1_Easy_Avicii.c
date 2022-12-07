@@ -12,6 +12,16 @@ int fibonacci(int n){
       return n;
    return fibonacci(n-1) + fibonacci(n-2);
 }
+/*
+mode 1 biasa, 2 fibo, 3 prime
+
+main
+    scan mode
+    matrix = getPattern(mode)
+    print(matrix)
+*/
+
+
 
 int main() {
     int n;
